@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+  <link href="bootstrap.min.css" rel="stylesheet">
+	<link href="estilos1.css" rel="stylesheet">
+  <link rel="icon" href="icono2.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body text="white">
+	
+	<header>
+  <div class="logo">
+    <img src="fondo2.png" alt="logo de la compania">
+    <h2 class="encabezado">LGBTIQ+</h2>
+     <link href="estilos1.css" rel="stylesheet">
+  </div>
+  
+  <nav>
+    <a href="" class="nav-link"></a>
+    <a href="" class="nav-link"></a>
+    <table border="0">
+      <font face="century gothic black"><h3>
+    <tr>
+    
+    <td><a href="index.html"><j><h3 class="sub">Inicio</h3></j></a></td>
+      </tr>
+      </h3></font>
+    </table>
+  </nav>
+
+</header>
+	<div>
+	<section id="p1">
+		Las personas LGBTI y aquellas con identidades de género no convencional existen:<br>
+		<label>
+			<input type="radio" name="p1" value="1" onclick="respuesta(1,this)">
+			Sobre todo en Occidente, aunque en menor número en el resto del mundo a
+			consecuencia de la globalización.
+		</label><br>
+		<label>
+			<input type="radio" name="p1" value="2" onclick="respuesta(1,this)">
+			En todos los países, regiones, ciudades, pueblos y comunidades del mundo.<br>
+		</label>
+		<label>
+			<input type="radio" name="p1" value="3" onclick="respuesta(1,this)">
+			En la mayoría de los países, aunque se agrupan sobre todo en los centros urbanos y escasamente o nada en las zonas rurales.<br>
+		</label>
+	</section>
+<br><br>
+	<section id="p2">
+		Las leyes que penalizan una conducta sexual consentida entre personas del mismo sexo y las diversas identidades de género existen en:<br>
+		<label>
+			<input type="radio" name="p2" value="1" onclick="respuesta(2,this)">
+		Menos de 15 países y ningún país impone como castigo máximo la pena de muerte.
+		</label><br>
+		<label>
+			<input type="radio" name="p2" value="2" onclick="respuesta(2,this)">
+			Menos de 35 países y al menos cinco países imponen como castigo máximo la
+			pena de muerte.<br>
+		</label>
+		<label>
+			<input type="radio" name="p2" value="3" onclick="respuesta(2,this)">
+			Más de 75 países y al menos siete países imponen como castigo máximo la pena
+			de muerte.<br>
+		</label>
+	</section>
+<br><br>
+	<section id="p3">
+		¿Que es genero?
+		<br>
+		<label>
+			<input type="radio" name="p3" value="1" onclick="respuesta(3,this)">
+			El vocablo género ​ es un término técnico específico en las ciencias sociales que alude al "conjunto de características diferenciadas que cada sociedad asigna a hombres y mujeres".<br>
+		</label>
+		<label>
+			<input type="radio" name="p3" value="2" onclick="respuesta(3,this)">
+			es una etiqueta que te ponen al momento de nacer, según ciertos factores médicos como tus hormonas, cromosomas y genitales.<br>
+		</label>
+		<label>
+			<input type="radio" name="p3" value="3" onclick="respuesta(3,this)">
+			es la atracción romántica, atracción sexual o comportamiento sexual entre miembros del mismo sexo.​​​​​​<br>
+		</label>
+	</section>
+<br><br>
+	<section id="p4">
+		¿Que es el genero queer?
+		<br>
+		<label>
+			<input type="radio" name="p4" value="1" onclick="respuesta(4,this)">
+			Es el término empleado en español para hacer referencia a la homosexualidad femenina, es decir, las mujeres que experimentan amor romántico o atracción sexual por otras mujeres. <br>
+		</label>
+		<label>
+			<input type="radio" name="p4" value="2" onclick="respuesta(4,this)">
+			Se relaciona con una identidad sexual o de género que no corresponde a las reglas establecidas de sexualidad y género.<br>
+		</label>
+		<label>
+			<input type="radio" name="p4" value="3" onclick="respuesta(4,this)">
+			se aplica a las personas que asumen una identidad de género que se halla fuera del binarismo de género, dado que su identidad autodesignada no se percibe totalmente masculina o femenina.<br>
+		</label>
+	</section>
+		<button onclick="corregir()">Corregir</button>
+		<h2>Respuestas correctas: <span id="resultado"></span></h2>
+	</div>
+	<script src="script.js"></script>
+	</h4>
+</body>
+</html>
